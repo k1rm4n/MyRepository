@@ -1,0 +1,23 @@
+﻿<Window x:Class="MathematicalSolutions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MathematicalSolutions"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Start_Button" Content="Создать пример..." HorizontalAlignment="Left" Margin="28,19,0,0" VerticalAlignment="Top" Height="49" Width="168" Click="Start_Button_Click"/>
+        <Label x:Name="first_number" Content="" Margin="281,31,457,348"/>
+        <Label x:Name="second_number" Content="" Margin="352,31,352,353"/>
+        <Label x:Name="Minus" Content="-" Margin="320,25,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Height="31" Width="31"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="238,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Проверить...;" HorizontalAlignment="Left" Height="22" Margin="376,96,0,0" VerticalAlignment="Top" Width="72" Click="Button_Click"/>
+        <TextBox x:Name="res_textBox" HorizontalAlignment="Left" Margin="238,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="place" HorizontalAlignment="Left" Margin="238,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Enter" Content="Решить" HorizontalAlignment="Left" Height="22" Margin="376,0,0,0" VerticalAlignment="Center" Width="72" Click="Enter_Click"/>
+        <Label Content="Введите x >>>" HorizontalAlignment="Left" Margin="136,175,0,0" VerticalAlignment="Top"/>
+        <Label Content="Результат" HorizontalAlignment="Left" Margin="156,0,0,0" VerticalAlignment="Center"/>
+
+    </Grid>
+</Window>
